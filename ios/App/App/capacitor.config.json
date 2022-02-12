@@ -1,0 +1,19 @@
+{
+  "appId": "com.ourkorean.app",
+  "appName": "ourkorean",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorFirebaseAuth": {
+      "providers": ["google.com"],
+      "languageCode": "en",
+      "nativeAuth": false
+    }
+  },
+  "cordova": {}
+}
